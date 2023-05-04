@@ -1,0 +1,36 @@
+* {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.bg-home{
+    height: 100vh;
+    background: url('https://blog.ead.unipar.br/wp-content/uploads/2021/04/inovacao-e-tecnologia.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    padding: 100px;
+}
+
+.fs-1{
+    font-size: 4em !important;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.content-palavras{
+    height: 150px;
+    position: relative;
+    top: -75px;
+    background: linear-gradient(90deg, #faee12, #ba5012);
+}
